@@ -14,7 +14,7 @@ Sub analyseStocks()
         Dim openingPrice As Double
         Dim closingPrice As Double
         Dim yearPriceChangePercentage As Double
-        openingPrice = False 'checks for new stock opening price - assumes price change comparison from openning price at start of year
+        openingPrice = False 'checks for new stock opening price - assumes price change comparison from opening price at start of year
         
         With ws
             .Range("I1").Value = "Ticker"
